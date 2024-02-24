@@ -24,16 +24,24 @@ To set up this project locally, follow these steps:
 
 ## Available Commands
 
-1. `list`: Lists all available Pokémon.
-   Usage: `pokedex > list`
+1. `help`: Displays all the available commands info.
+   Usage: `pokedex > help`
+
+2. `explore <area name>`: See a list of all the Pokémon in a given area.
+   Usage: `pokedex > explore canalave-city-area`
    
-2. `get <pokemon_name>`: Retrieves details about a specific Pokémon.
+3. `catch <pokemon_name>`: catch a pokemon!.
    Usage: `pokedex > get pikachu`
 
-3. `next`: Displays the next set of Pokémon in the list.
+4. `map`: displays the names of 10 location areas in the Pokemon world.
    Usage: `pokedex > next`
 
-4. `prev`: Displays the previous set of Pokémon in the list.
-   Usage: `pokedex > prev`
+5. `pokedex`: all the names of the Pokemon the user has.
+   Usage: `pokedex > pokedex`
+
+6. `exit`: close the Pokedex.
+   Usage: `pokedex > exit`
+
+And many more.......
 
 Replace `<pokemon_name>` with the name of the Pokémon you wish to retrieve information about.
